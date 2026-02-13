@@ -20,14 +20,14 @@ body {
   border-radius: 10px;
   }
 
-.header-box {
-  background: #1e90ff;
+  .header-box {
+  background: linear-gradient(to right, #2c5f2d, #97bc62);
+  padding: 25px;
   text-align: center;
-  padding: 20px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+
+
 
 .form-container {
   background: white;
