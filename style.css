@@ -11,7 +11,7 @@ body {
 
 .header-box h1 {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-family: Arial;
   text-align: center;
   display: flex;
@@ -21,10 +21,10 @@ body {
   }
 
   .header-box {
-  border-radius: 10px;
+  border-radius: 30px;
   background: linear-gradient(to right, #2c5f2d, #97bc62);
-  padding: 15px;
-  text-align: center;
+  padding: 10px;
+  align-items: center;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
