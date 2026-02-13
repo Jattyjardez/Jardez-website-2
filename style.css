@@ -83,13 +83,14 @@ button:hover {
 
 h1 {
   font-family: Arial;
+  margin-top: 20px;
   color: #0056b3;
   text-align: center;
   display: flex;
-  //padding: 20px;
-  border: 1px solid #1105;
-  border-radius: 6px;
-  font-size: 60px;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 50px;
   
 } 
 
