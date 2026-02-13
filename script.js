@@ -3,13 +3,16 @@ let SNum = "";
 
 function greetUser(){
   let name = document.getElementById("nameInput").value;
-  
   let ans = confirm("Are you sure?");
   
   if(ans){
-    SName = name;
-    alert("Name saved! ");
+      if(name ===""){
+    alert("This field must not be empty. Pls try again! ");
   }else{
+      SNane = name;
+      alert("Name saved! ");
+  }
+}else{
     alert("Submission canceled...");
   }
 }
@@ -18,17 +21,20 @@ function greetUser(){
 
 function Num(){
   let num = document.getElementById("numInput").value;
-  
   let ans = confirm("Are you sure?");
   
+  
   if(ans){
-    SNum = num;
-    alert("Number saved! ");
+      if(num ===""){
+    alert("This field must not be empty. Pls try again! ");
   }else{
+      SNum = num;
+      alert("Number saved! ");
+  }
+}else{
     alert("Submission canceled...");
   }
 }
-
 function show(){
   let name = document.getElementById("nameInput").value;
   let num = document.getElementById("numInput").value;
@@ -40,5 +46,5 @@ function show(){
   }
   alert("Form details are as follows: \n Name: " + SName + "\n Number: " + SNum);
       
-  alert("Thanks for your submission! \n Jardez Company LTD");
+  alert("Thanks for your submission! \n Jardez Company LTD🤝");
 }
