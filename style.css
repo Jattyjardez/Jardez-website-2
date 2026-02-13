@@ -11,18 +11,19 @@ body {
 
 .header-box h1 {
   color: white;
-  font-size: 60px;
+  font-size: 40px;
   font-family: Arial;
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 14px;
+ 
   }
 
   .header-box {
+  border-radius: 10px;
   background: linear-gradient(to right, #2c5f2d, #97bc62);
-  padding: 25px;
+  padding: 15px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
