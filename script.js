@@ -9,7 +9,7 @@ function greetUser(){
       if(name ===""){
     alert("This field must not be empty. Pls try again! ");
   }else{
-      SNane = name;
+      SName = name;
       alert("Name saved! ");
   }
 }else{
