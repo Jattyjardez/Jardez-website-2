@@ -42,6 +42,7 @@ function show(){
           return;
   }else if (SName === "" || SNum === ""){
     alert("Please the name and the number are not filled and saved! ");
+    return;
   }else{
     alert("Form details are as follows:\nName: " + SName + "\nNumber: " + SNum);
     alert("Thanks for your submission!\nJardez Company LTD 🤝");
