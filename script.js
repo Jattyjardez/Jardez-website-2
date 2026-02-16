@@ -45,4 +45,5 @@ function show(){
   }else{
     alert("Form details are as follows:\nName: " + SName + "\nNumber: " + SNum);
     alert("Thanks for your submission!\nJardez Company LTD 🤝");
+  }
 }
