@@ -34,11 +34,15 @@ function Num(){
 }
 
 function show(){
-  if(SName === "" || SNum === ""){
-    alert("Please fill all the required fields !!!");
+  if(SName === ""){
+    alert("Please enter your name and save it before you print out! ");
     return;
-  }
-
-  alert("Form details are as follows:\nName: " + SName + "\nNumber: " + SNum);
-  alert("Thanks for your submission!\nJardez Company LTD 🤝");
+  }else if(Snum ===""){
+    alert("Please enter your number and save it before you print out!);
+          return;
+  }else if (Sname === "" || Snum === ""){
+    alert("Please the name and the number are not filled and saved! ")
+  }else{
+    alert("Form details are as follows:\nName: " + SName + "\nNumber: " + SNum);
+    alert("Thanks for your submission!\nJardez Company LTD 🤝");
 }
