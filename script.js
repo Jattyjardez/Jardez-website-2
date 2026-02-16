@@ -37,10 +37,10 @@ function show(){
   if(SName === ""){
     alert("Please enter your name and save it before you print out! ");
     return;
-  }else if(Snum ===""){
+  }else if(SNum ===""){
     alert("Please enter your number and save it before you print out!);
           return;
-  }else if (Sname === "" || Snum === ""){
+  }else if (SName === "" || SNum === ""){
     alert("Please the name and the number are not filled and saved! ");
   }else{
     alert("Form details are as follows:\nName: " + SName + "\nNumber: " + SNum);
